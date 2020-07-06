@@ -1,0 +1,24 @@
+### React JS
+
+How to config project React
+1 - Iniate a node project
+2 - create folder public
+3 - create folder src
+4 - create file index.html from public folder
+5 - write basic html from file index (emmet help for this)
+6 - write element div with id app
+7 - Install:
+    react
+    react-dom
+    @babel/core
+    @babel/preset-env
+    @babel/preset-react
+    @babel/cli
+      command-> npx babel src/index.js --out-file public/bundle.js
+    babel-loader
+    webpack
+    webpack-cli
+    webpack-dev-server -D
+      command-> npx webpack-dev-server --mode development
+    style-loader
+    css-loader
